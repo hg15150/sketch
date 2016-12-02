@@ -42,6 +42,8 @@ void X (State *state, byte soperand){
         state->x1 = state->x1 + n;
     }
     else state->x1 += soperand;
+    //Practicing Github
+    printf("Let's see if this works\n");
 }
 //DY function
 void Y (State *state, byte soperand, display *d ){
