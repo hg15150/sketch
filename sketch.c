@@ -42,6 +42,7 @@ void X (State *state, byte soperand){
         state->x1 = state->x1 + n;
     }
     else state->x1 += soperand;
+    printf("This is literally just to help with gitHub\n");
 }
 //DY function
 void Y (State *state, byte soperand, display *d ){
